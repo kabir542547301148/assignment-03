@@ -26,7 +26,7 @@
 <body class=".font-sora">
     <header class="container mx-auto bg-gradient-to-b from-[#FFFFFF]  to-[#EFEBE3]">
       <!-- navvar started -->
-      <nav class="flex justify-between items-center">
+      <nav class="hidden lg:flex justify-between items-center md:flex md:justify-between md:items-center">
        
         <div class="">
           <img src="c2-assets/logo-header.png" alt="">
@@ -49,7 +49,7 @@
 
       </nav>
       <!-- for only small devices view -->
-       <div class="flex justify-between items-center lg:hidden md:hidden">
+       <div class="flex justify-between items-center px-4 py-4 lg:hidden md:hidden border border-b-[#179800]">
         <div>
           <img src="c2-assets/logo-nav.png" alt="">
 
@@ -78,21 +78,21 @@
 
     </header>
     <main>
-      <section class="container mx-auto my-60">
+      <section class="container mx-auto my-24">
         <h2 class="text-4xl text-[#179800] font-semibold my-35 text-left pb-12">Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           <div class="bg-[#EFEBE3] text-center rounded-lg">
-              <img src="c2-assets/service.png" alt="">
+             <div class="grid justify-center"> <img src="c2-assets/service.png" alt="" class="px-2 py-2 w-36 h-36 bg-[#FFFFFF] rounded-[50%]"></div>
             <h3 class="text-2xl text-[#111111] font-semibold pt-6 pb-4">24/7 Services</h3>
             <p class="text-xl text-[#111111] font-light pb-11">24/7 service can be offered in<br> many areas, including IT<br> support, customer support,</p>
           </div>
           <div class="bg-[#EFEBE3] text-center rounded-lg">
-            <img src="c2-assets/delivery.png" alt="">
+            <div class="grid justify-center"><img src="c2-assets/delivery.png" alt="" class="px-2 py-2 w-36 h-36 bg-[#FFFFFF] rounded-[50%]"></div>
             <h3 class="text-2xl text-[#111111] font-semibold pt-6 pb-4">Fast Delivery</h3>
             <p class="text-xl text-[#111111] font-light pb-11">the complete solution for customers<br>to get Food, Essential & More<br> at their door step</p>
           </div>
           <div class="bg-[#EFEBE3] text-center rounded-lg">
-            <img src="c2-assets/healthy.png" alt="">
+           <div class="grid justify-center"> <img src="c2-assets/healthy.png" alt="" class="px-2 py-2 w-36 h-36 bg-[#FFFFFF] rounded-[50%]"></div>
             <h3 class="text-2xl text-[#111111] font-semibold pt-6 pb-4">Healthy Products </h3>
             <p class="text-xl text-[#111111] font-light pb-11">Health products are defined as<br> those substances which gives energy<br> or makes the person healthy.</p>
           </div>
@@ -100,22 +100,202 @@
 
       </section>
       <section class="container mx-auto my-35 bg-[#EFEBE3]">
-        <h2 class="text-4xl text-[#179800] font-semibold text-left">Popular Products</h2>
+        <h2 class="text-4xl text-[#179800] font-semibold text-left">Popular Products</h2>       
         <!-- parent -->
-        <div>
+        <div class="flex justify-between">
           <!-- child -1 -->
-          <div>
-            <h3>30% off</h3>
-            <p>Discover a world of treats, toys, and<br> essentials handpicked for </p>
-            <button>Buy Now</button>
-            <img src="c2-assets/vegetable-offer.png" alt="">
-
+          <div class="w-96 h-auto bg-gradient-to-b from-[#53DB3A]  to-[#FFFFFF] pl-8 pt-16">
+            <h3 class="text-3xl text-[white] font-normal">30% off</h3>
+            <p class="text-xl text-[#111111] font-normal">Discover a world of treats, toys, and<br> essentials handpicked for </p>
+            <button class="text-xl text-[#111111] font-normal bg-white px-8 py-3">Buy Now</button>
+           <div class=" justify-center items-end"> <img src="c2-assets/vegetable-offer.png" alt="">
+           </div>
           </div>
           <!-- child-2 -->
-          <div>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center justify-center">
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child-3 -->
+             
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child 4 -->
+            
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child 5 -->
+             
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child 6 -->
+             
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child 7 -->
+             
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child 8 -->
+            
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child 9 -->
+             
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+            <!-- child 10 -->
+             
+            <div>
+              <div>
+                <img src="c2-assets/onion.png" alt="">
+  
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i> <h4>4.5</h4>
+                <h3>Onion 1 KG</h3>
+                <h4>$39.99</h4>
+  
+  
+              </div>
+  
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <section class="container mx-auto my-24">
+        <h2 class="text-4xl text-[#179800] font-semibold">Arrival & Offers</h2>
+        <!-- parent -->
+        <div class="flex justify-between">
+          <!-- parent-1 -->
+          <div class="flex justify-between bg-[#115414] rounded-lg">
+            <div class="p-10">
+              <img src="c2-assets/dawat-logo.png" alt="">
+              <button>Cook Exotic Dishes</button>
+              <h2>UP to 20% OFF</h2>
+
+            </div>
+            <div>
+              <img src="c2-assets/dawat-mock-up.png" alt="">
+
+            </div>
+
+          </div>
+          11
+           <!-- parent-2 -->
+           <div class="flex justify-between bg-[#102861]">
+            <div>
+              <img src="c2-assets/india-gate-logo.png" alt="">
+              <button>World's No.1 Rice</button>
+              <h2>UP to 40% OFF</h2>
+
+
+            </div>
+            <div>
+              <img src="c2-assets/india-gate-mock-up.png" alt="">
+              
+            </div>
 
           </div>
 
+          11
         </div>
 
       </section>
